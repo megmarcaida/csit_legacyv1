@@ -1,0 +1,454 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+}
+
+p{
+	margin: 0 0 20px 0;	
+}
+
+p, ul{
+	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+	font-size-adjust:0.488;
+	font-weight:200;
+	font-style:normal;
+}
+
+img{
+	border: 0;
+}
+
+h1, #pixels{
+	font-family:"Museo 900", Verdana, serif;
+	font-size-adjust:0.40;
+	font-weight:700;
+	font-style:normal;
+}
+
+h2{
+	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
+	font-size-adjust:0.531;
+	font-weight:500;
+	font-style:normal;
+}
+
+#header h1, #pixels{
+	color: #48941A;
+}
+
+.float-left{
+	float: left;	
+	margin: 0 0 0 20px;
+}
+
+.float-right{
+	float: right;
+	margin: 0 20px 0 0;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0 0 0;
+	text-align: center;
+}
+
+#nav{
+	list-style: none;
+	position: fixed;
+	right: 20px;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+#nav li a img{
+	height: 50px;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+#nav li a img:hover{
+	opacity: .8;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+#header, #intro, #second{
+	width: 100%;
+}
+
+#intro{
+	background:url(images/quiz.png)  no-repeat fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.header{
+	width: 100%;
+	height: 120px;
+	background: url(../background/header.png) no-repeat center fixed;
+	background-size:cover;
+}
+
+
+.nav{
+	width: 100%;
+}
+
+.nav img{
+	height: 90%;
+	width: 20%;
+	float: left;
+}
+
+nav a{
+	float: right;
+	position: relative;
+	display: inline-block;
+	width: 5%;
+	text-align: center;
+	font-family: calibri;
+	margin: 3% 9% 3% -9%;
+	outline: none;
+	color: #4D4DFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 100%;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+
+.cl-effect-14 a {
+	padding: 0 1%;
+	height: 45px;
+	line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+	opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
+
+#second{
+	background: url(images/tutorial.jpg)no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: white;
+	height: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+	border-top: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+#second .bg{
+	background: url(images/trainers.png) 50% 0 no-repeat fixed;
+	height: 1300px;
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	width: 900px;
+	z-index: 200;
+}
+
+#third{
+	background: url(images/gamesbackground.jpg)  no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	color: white;
+	height: 550px;
+	padding: 100px 0 0 0;	
+}
+
+#fifth{
+	background: #ccc  no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	height: 400px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}
+
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	overflow: auto;
+	width: 80%;
+}
+
+.float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+.quiz{
+	float: left;
+	width: 48%;
+}
+
+
+ .quiz img{
+ 	width: 400px;
+ 	height: 80px;
+ }
+
+.quiz fieldset{
+	margin-top: 20px;
+	background: url(images/4.jpeg) no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.quiz h1{
+	text-align: center;
+	font-family: Langdon;
+	font-size: 40px;
+}
+
+.quiz p{
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 18px;
+	font-family: century gothic;
+	padding: 10px;
+	line-height: 25px;
+	color: #FFF;
+}
+.an{
+	float: right;
+	width: 48%;
+}
+
+.an fieldset{
+ 	float: left;
+ 	margin-top: 20px;
+ 	width: 100%;
+ 	border-color: #000;
+ 	border-top: 1px solid red;
+ 	border-bottom: 1px solid red;
+ 	border-left: 10px solid #000;
+ 	border-right: 10px solid #000; 
+ }
+
+
+.wrapper{
+	width: 80%;
+}
+
+.footer{
+	width: 100%;
+	height:100px;
+	background: url(../bg/banner.jpg);
+	float: right;
+	margin-top: 10px
+	bottom:100%;
+}
+
+.footer fieldset{
+	border: transparent;
+}
+
+.footer p{
+	margin-top: 30px;
+	color:#fff;
+	font-family: book antiqua;
+}
+
+.kanan{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	margin-top: 90px;
+}
+
+.kanan fieldset{
+	border: none;
+}
+
+.kanan p{
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	text-indent: 50px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: justify;
+	font-family: century gothic;
+}
+
+.kaliwa {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	margin-top: 90px;
+}
+
+.kaliwa img{
+	width: 80%;
+	padding: 10px;
+	height: 200px;
+	margin-top: -50px;
+}
+
+.kaliwa ul{
+	list-style: none;
+}
+
+
+.kanan2{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	margin-top: 90px;
+}
+
+.kanan2 fieldset{
+	background:#000;
+}
+
+.kanan2 p{
+	padding: 10px;
+	text-indent: 50px;
+	font-size: 20px;
+	text-align: justify;
+	font-family: century gothic;
+}
+
+.kaliwa2 {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	margin-top: 90px;
+}
+
+.kaliwa2 img{
+	float: left;
+	width: 90%;
+	height: 30%;
+	margin-top: -50px;
+}
+
+.kaliwa2 ul{
+	list-style: none;
+}
+
+.list{
+	float: left;
+	width: 100%;
+}
+
+.list img{
+	width: 100%;
+	float: left;
+	height: 400px;
+}
+
+.games{
+	float: left;
+	width: 100%;
+}
+
+.games a img{
+	height: 40%;
+	width: 15%;
+	padding: 25px;
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    overflow:hidden;
+}
+
+.games a:hover{
+	-webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+

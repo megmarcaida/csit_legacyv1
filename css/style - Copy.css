@@ -1,0 +1,271 @@
+body{
+}
+
+#wrapper{
+	width: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 120px;
+	background: url(../background/header.png) no-repeat center fixed;
+	background-size:cover;
+}
+
+.nav{
+	width: 100%;
+}
+
+.nav img{
+	height: 90%;
+	width: 20%;
+	float: left;
+}
+
+nav a{
+	float: right;
+	position: relative;
+	display: inline-block;
+	width: 5%;
+	text-align: center;
+	font-family: calibri;
+	margin: 3% 0%;
+	outline: none;
+	color: #4D4DFF;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 100%;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+
+.cl-effect-14 a {
+	padding: 0 1%;
+	height: 45px;
+	line-height: 45px;
+}
+
+.cl-effect-14 a::before,
+.cl-effect-14 a::after {
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::before,
+.cl-effect-14 a:focus::after {
+	opacity: 1;
+}
+
+.cl-effect-14 a:hover::before,
+.cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.cl-effect-14 a:hover::after,
+.cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}
+
+.content{
+	width:80%;
+	position:relative;
+	margin:20px auto 0px auto;
+}
+
+.mission{
+	width: 400px;
+	margin-left: -20px;
+}
+
+.mission p{
+	float: left;
+	top: 110%;
+	width: 400px;
+	position: absolute;
+	text-indent: 100px;
+	text-align: justify;
+	margin-left: 50px;
+	font-family: Century Gothic;
+}
+
+.mission h2{
+	font-family: book antiqua;
+	margin-left: 50px;
+	top: 105%;
+	position: absolute;
+}
+
+.mission img{
+	float: left;
+	position: absolute;
+	top: 100%;
+	height: 270px;
+	width: 500px;
+}
+
+.vision{
+	width: 400px;
+	margin-left: -20px;
+}
+
+.vision p{
+	float: left;
+	top: 170%;
+	width: 400px;
+	position: absolute;
+	text-indent: 100px;
+	text-align: justify;
+	margin-left: 50px;
+	font-family: Century Gothic;
+}
+
+.vision h2{
+	font-family: book antiqua;
+	margin-left: 50px;
+	top: 165%;
+	position: absolute;
+}
+
+.vision img{
+	float: left;
+	position: absolute;
+	top: 160%;
+	height: 310px;
+	width: 500px;
+}
+
+.kanan{
+	float: right;
+	width: 400px;
+}
+
+.kaliwan{
+	float: left;
+}
+
+
+video{
+	height: 320px;
+	width: 400px;
+	border-radius: 10px;
+	background: #000;
+	padding: 4px;
+}
+
+.imahes{
+	height: 150px;
+	width: 400px;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+.imahes:hover{
+	opacity: .8;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+
+.footer{
+	width: 100%;
+	height:100px;
+	background: url(../bg/banner.jpg);
+	float: left;
+	margin-top: 10px
+	bottom:100%;
+}
+
+.footer p{
+	margin-top: 30px;
+	color:#fff;
+	font-family: book antiqua;
+}
+
+.form{
+	float: right;
+	margin-top: 30px;
+}
+
+.input{
+	float: left;
+	font-family: century gothic;
+	height: 30px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid;
+	text-align: center;
+	width: 250px;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+.input:hover{
+	background: #CEF6F5;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+.submit{
+	float: right;
+	font-family: century gothic;
+	font-weight: bold;
+	border: none;
+	border-radius: 4px;
+	height: 60px;
+	margin-top: -30px;
+	margin-right: 20px;
+	margin-left: -10px;
+	background: url(../background/calendar.jpg);
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+.submit:hover{
+	color:#8B0606;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}

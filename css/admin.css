@@ -1,0 +1,155 @@
+body{
+	margin:none;
+	width: 100%;
+}
+
+#wrapper{
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.header img{
+	width: 50%;
+	float: left;
+	height: 75%;
+	margin-top: 9%;
+}
+
+.kaliwa{
+	float: left;
+	margin-top: 8%; 
+	width: 48%;
+}
+
+.kaliwa .image img{
+	width: 29%;
+	height: 35%;
+	position: absolute;
+	top: 29%;
+	right: 14%;
+}
+
+.kaliwa img{
+	width: 40%;
+	height: 75%;
+	position: absolute;
+}
+
+.input{
+	position: absolute;
+	font-size: 100%;
+	top: 40%;
+	right: 21.5%;
+	width: 14%;
+	text-align: center;
+	border-radius: 5px;
+	height: 4%;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+	font-family: calibri;
+}
+
+.input1{
+	position: absolute;
+	font-size: 100%;
+	top: 45%;
+	right: 21.5%;
+	width: 14%;
+	text-align: center;
+	border-radius: 5px;
+	height: 4%;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+	font-family: calibri;
+}
+
+.input:hover{
+	background: url(../background/download.jpg);
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+}
+.input1:hover{
+	background: url(../background/download.jpg);
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+}
+
+.input2{
+	position: absolute;
+	top: 50%;
+	right: 21.5%;
+	width: 14%;
+	text-align: center;
+	border-radius: 5px;
+	height: 4%;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+	font-family: calibri;
+	font-size: 15px;
+	background: url(../background/calendar.jpg);
+	border: none;
+	font-weight: bold;
+}
+
+.input2:hover{
+	color:#FFF;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+}
+
+.footer{
+	float: left;
+	width: 80%;
+	height: 12%;
+	text-align: center;
+	position: absolute;
+	bottom: 0%;
+	margin: none;
+}
+
+.footer {
+	
+	background-size: cover;
+	font-family: century gothic;
+	height: 170%;
+}
+
+.footer h1{
+	margin: 10px;
+	color: #fff;
+}
+
+.footer h2{
+	color: #fff;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+}
+
+.footer a:hover{
+	color: #00CCFF;
+	transition-duration:350ms;
+	transition-timing-fucntions:ease-in-out;
+}
+
+.fl{
+	float: left;
+	width: 33%;
+}
+
+.fl1{
+	float: left;
+	width: 34%;
+}
+
+.fl2{
+	float: left;
+	width: 33%;
+}
+
+

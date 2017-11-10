@@ -1,0 +1,88 @@
+.mid-profile{
+	background: url(../images/bg2.jpg);
+	background-size: cover;
+	float: left;
+	width: 78%;
+	padding: 3px;
+	border-right: 1px solid gray;
+	height: 795px;
+	background-color: #ccc;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.picture{
+	float: left;
+	width: 26%;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.picture img{
+	height:250px;
+	width: 250px;
+	padding: 10px;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.picture h1{
+	padding: 10px;
+	text-align: center;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.lamang-loob{
+	float: left;
+	width: 73%;
+	padding: 4px;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.lamang-loob fieldset{
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #4D4DFF;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.banner{
+	width: 100%;
+	height: 200px;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.post{
+	text-indent: 10px;
+	padding: 10px;
+	width: 100%;
+	height: 100px;
+	text-align: justify;
+	font-family: century gothic;
+	transition-duration:550ms;
+	transition-timing-function:ease-in-out;
+}
+
+.submit-post{
+	font-family: century gothic;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	background: url(../images/red_texture.jpg);
+	float: right;
+	padding: 10px;
+	margin: 5px 0;
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
+.submit-post:hover{
+	background: url(../background/calendar.jpg);
+	transition-duration:350ms;
+	transition-timing-function:ease-in-out;
+}
+
